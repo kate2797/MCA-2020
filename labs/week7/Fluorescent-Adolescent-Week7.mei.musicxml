@@ -33,7 +33,7 @@
             </address>
             <date>October 23, 2020</date>
             <availability>
-                <useRestrict xml:id="license" auth.uri="https://creativecommons.org/publicdomain/zero/1.0/" auth="Creative Commons">Creative Commons Attribution, CC0</useRestrict>
+                <useRestrict xml:id="license" auth.uri="https://creativecommons.org/licenses/by-sa/4.0/" auth="Creative Commons">Creative Commons Attribution, CC BY-SA 4.0</useRestrict>
             </availability>
          </pubStmt>
          <sourceDesc>
