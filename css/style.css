@@ -137,6 +137,10 @@ mei-term::after {
   content: ", ";
 }
 
+#genre_last::after {
+  content: "";
+}
+
 /* Sections */
 
 mei-editionstmt::before {

@@ -80,7 +80,7 @@
                   <term>Garage Rock</term>
                   <term>Ska Punk</term>
                   <term>Indie Rock</term>
-                  <term>Psychedelic Rock</term>
+                  <term xml:id="genre_last">Psychedelic Rock</term>
                </termList>
             </classification>
         </work>
