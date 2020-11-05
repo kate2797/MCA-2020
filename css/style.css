@@ -120,7 +120,7 @@ mei-extent {
 }
 
 #encoding_publisher::before {
-  content: "Publisher: ";
+  content: "Encoding publisher: ";
   font-weight: bold;
 }
 
@@ -131,16 +131,26 @@ mei-extent {
 
 /* Sections */
 
-mei-editionstmt > mei-title::before {
+mei-editionstmt::before {
 	content: "Source";
 	text-transform: uppercase;
-	font-size: 12px;
-	display:block;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 2px;
 }
 
-mei-worklist > mei-title::before {
-	content: "Original Work";
+mei-worklist::before {
+	content: "Original work";
 	text-transform: uppercase;
-	font-size: 12px;
-	display:block;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 2px;
+}
+
+mei-pubstmt::before {
+	content: "Publication statement";
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 2px;
 }
