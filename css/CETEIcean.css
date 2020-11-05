@@ -1837,6 +1837,12 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
   white-space: none;
 }
 
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::after {
+  content: '\a \a';
+  white-space: pre;
+}
+
+
 #pers12345 {
   margin-top: 2em;
 }
