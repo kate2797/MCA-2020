@@ -25,7 +25,7 @@
         </editionStmt>
          <extent unit="Mbytes">0.119</extent>
          <pubStmt>
-            <publisher>Katarina Zaprazna</publisher>
+            <publisher xml:id="encoding_publisher">Katarina Zaprazna</publisher>
             <address>
                 <addrLine>
                 <geogName>Glasgow</geogName>

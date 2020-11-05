@@ -119,6 +119,11 @@ mei-extent {
   font-weight: bold;
 }
 
+#encoding_publisher::before {
+  content: "Publisher: ";
+  font-weight: bold;
+}
+
 /* Sections */
 
 mei-editionstmt > mei-title::before {
