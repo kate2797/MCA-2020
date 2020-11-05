@@ -110,9 +110,7 @@ mei-date, mei-title, mei-persname, mei-corpname, mei-extent, mei-publisher, mei-
   display: block;
 }
 
-/* Sections */ 
-
 #composer_first::before {
-  content: "File description";
-  display: block;
+  content: "Composer: ";
+  font-weight: bold;
 }
