@@ -16,9 +16,12 @@ h3 {
   color: #363636;
 }
 
+.mei-body-items {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
 #MEImeta {
   display: block;
-  font-family: 'Nunito Sans', sans-serif;
 }
 
 #mytitle {
