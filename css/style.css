@@ -71,6 +71,11 @@ mei-date::before {
   font-weight: bold;
 }
 
+#lyricist1::after {
+  content: " and";
+  font-weight: bold;
+}
+
 mei-key::before {
   content: "Key: ";
   font-weight: bold;
