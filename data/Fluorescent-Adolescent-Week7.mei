@@ -9,7 +9,7 @@
             <title xml:id="subtitle" type="subtitle">An arrangement for piano</title>
             <respStmt>
                 <persName role="composer">Arctic Monkeys</persName>
-                <persName role="arranger">psychemmyy</persName>
+                <persName xml:id="arranger" role="arranger">psychemmyy</persName>
                 <persName role="encoder">Katarina Zaprazna</persName>
             </respStmt>
          </titleStmt>
@@ -19,7 +19,7 @@
             <date>August 17, 2017</date>
         </edition>
             <respStmt>
-                <persName role="arranger">psychemmyy</persName>
+                <persName xml:id="arranger" role="arranger">psychemmyy</persName>
                 <corpName role="publisher">MuseScore</corpName>
           </respStmt>
         </editionStmt>

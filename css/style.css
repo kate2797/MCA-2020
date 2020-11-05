@@ -31,6 +31,14 @@ h3 {
   font-family: 'DM Serif Display', serif;
 }
 
+mei-title::before {
+  content: "Title";
+}
+
+#arranger::before {
+  content: "Arranger";
+}
+
 #subtitle {
   padding-bottom: 2px;
 }
