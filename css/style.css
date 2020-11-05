@@ -66,11 +66,6 @@ mei-date::before {
   font-weight: bold;
 }
 
-#composer_first::before {
-  content: "File description";
-  display: block;
-}
-
 #composer::before {
   content: "Composer: ";
   font-weight: bold;
@@ -112,5 +107,12 @@ mei-termlist::before {
 }
 
 mei-date, mei-title, mei-persname, mei-corpname, mei-extent, mei-publisher, mei-address, mei-lyricist, mei-key, mei-tempo, mei-geogname, mei-creation, mei-language, mei-termlist  {
+  display: block;
+}
+
+/* Sections */ 
+
+#composer_first::before {
+  content: "File description";
   display: block;
 }
