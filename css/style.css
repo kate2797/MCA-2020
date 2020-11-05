@@ -24,7 +24,7 @@ h3 {
   display: block;
 }
 
-#mytitle {
+#my_title {
   font-size: 35px;
   color: black;
   padding-bottom: 2px;
@@ -36,8 +36,28 @@ h3 {
   font-weight: bold;
 }
 
+#title1::before {
+  content: "Title: ";
+  font-weight: bold;
+}
+
+mei-date::before {
+  content: "Date published: ";
+  font-weight: bold;
+}
+
 #arranger::before {
   content: "Arranger: ";
+  font-weight: bold;
+}
+
+#arranger1::before {
+  content: "Arranger: ";
+  font-weight: bold;
+}
+
+#published_on::before {
+  content: "Published on: ";
   font-weight: bold;
 }
 

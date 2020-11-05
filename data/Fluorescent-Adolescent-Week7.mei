@@ -5,7 +5,7 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title xml:id="mytitle">Fluorescent Adolescent</title>
+            <title xml:id="my_title">Fluorescent Adolescent</title>
             <title xml:id="subtitle" type="subtitle">An arrangement for piano</title>
             <respStmt>
                 <persName role="composer">Arctic Monkeys</persName>
@@ -15,12 +15,12 @@
          </titleStmt>
         <editionStmt>
         <edition>
-            <title>Fluorescent Adolescent</title>
+            <title xml:id="title1">Fluorescent Adolescent</title>
             <date>August 17, 2017</date>
         </edition>
             <respStmt>
-                <persName xml:id="arranger" role="arranger">psychemmyy</persName>
-                <corpName role="publisher">MuseScore</corpName>
+                <persName xml:id="arranger1" role="arranger">psychemmyy</persName>
+                <corpName xml:id="published_on" role="publisher">MuseScore</corpName>
           </respStmt>
         </editionStmt>
          <extent unit="Mbytes">0.119</extent>
