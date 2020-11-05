@@ -8,9 +8,7 @@
     <meta name="description" content="MCA 2020">
     <meta name="author" content="2334501z">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/CETEI.js"></script>
 </head>
 
 <body>
@@ -56,65 +54,8 @@
                         follow <a href="https://kate2797.github.io/MCA-2020/myMeta.html" target="_blank">this</a> link
                         to see the output for Task 2.</p>
                 </div>
-                <div id="MEImeta"></div>
-                <div id="app">Verovio is loading...</div>
             </section>
         </div>
-        <script type="module">
-            import 'https://www.verovio.org/javascript/app/verovio-app.js';
-              const options = {
-                  defaultView: 'responsive', // default is 'responsive', alternative is 'document'
-                  defaultZoom: 3, // 0-7, default is 4
-                  enableResponsive: true, // default is true
-                  enableDocument: true // default is true
-              }
-              // A MusicXML file
-              var file = '../data/Fluorescent-Adolescent-Week7.mei';
-              // A MEI file
-              //var file = 'https://www.verovio.org/editor/brahms.mei';
-              const app = new Verovio.App(document.getElementById("app"), options);
-              fetch(file)
-                  .then(function(response) {
-                      return response.text();
-                  })
-                  .then(function(text) {
-                      app.loadData(text);
-                  });
-          </script>
-        <script>
-            // Get, parse, and show TEI data
-            var CETEIcean = new CETEI()
-            CETEIcean.getHTML5("../data/Fluorescent-Adolescent-Week7.mei", function (data) {
-                document.getElementById("TEI").appendChild(data)
-            })
-            // Get, parse and show MEI header data
-            var CETEI4MEI = new CETEI()
-            CETEI4MEI.addBehaviors({
-                namespaces: {
-                    mei: "http://www.music-encoding.org/ns/mei"
-                }
-            })
-            CETEI4MEI.getHTML5("../data/Fluorescent-Adolescent-Week7.mei", function (data) {
-                // get header
-                var meiHead = data.querySelector('mei-meiHead')
-                document.getElementById("MEImeta").appendChild(meiHead)
-            })
-            var vrvToolkit = new verovio.toolkit()
-            vrvToolkit.setOptions(options = {
-                pageHeight: 500,
-                pageWidth: 1000,
-                ignoreLayout: 1,
-                border: 20,
-                scale: 50,
-                adjustPageHeight: true
-            })
-            fetch("../data/Fluorescent-Adolescent-Week7.mei").then(function (response) {
-                response.text().then(function (data) {
-                    var svg = vrvToolkit.renderData(data, {})
-                    document.getElementById('MEI').innerHTML = svg
-                })
-            })
-        </script>
 </body>
 
 </html>
