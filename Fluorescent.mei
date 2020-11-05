@@ -17,11 +17,10 @@
         <edition>
             <title>Fluorescent Adolescent</title>
             <date>August 17, 2017</date>
-            <persName role="arranger">psychemmyy</persName>
         </edition>
             <respStmt>
-                <resp>Published on</resp>
-                <name>MuseScore</name>
+                <persName role="arranger">psychemmyy</persName>
+                <corpName role="publisher">MuseScore</corpName>
           </respStmt>
         </editionStmt>
          <extent unit="Mbytes">0.119</extent>
