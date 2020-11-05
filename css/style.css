@@ -133,6 +133,10 @@ mei-extent {
   font-weight: bold;
 }
 
+mei-term::after {
+  content: ", ";
+}
+
 /* Sections */
 
 mei-editionstmt::before {
