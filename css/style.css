@@ -113,3 +113,11 @@ mei-extent {
   content: "Composer: ";
   font-weight: bold;
 }
+
+mei-editionstmt > mei-title::before {
+	content: "Source of Transcription";
+	text-transform: uppercase;
+  font-family: 'DM Serif Display', serif;
+	font-size: 12px;
+	display:block;
+	  }
