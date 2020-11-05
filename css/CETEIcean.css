@@ -1833,7 +1833,7 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::befo
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
   font-weight: bold;
-  content: '\a'"Encoded by: ";
+  content: '\a'"Encoder: ";
   white-space: none;
 }
 
