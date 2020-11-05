@@ -61,6 +61,11 @@ mei-date::before {
   font-weight: bold;
 }
 
+#published_on::after {
+  content: '\a \a';
+  white-space: pre;
+}
+
 #composer::before {
   content: "Composer: ";
   font-weight: bold;
