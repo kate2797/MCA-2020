@@ -20,7 +20,7 @@
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'week7/Fluorescent-Adolescent-Week7.mei.musicxml';
+      var file = 'Fluorescent.mei';
       // A MEI file
       //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
@@ -35,7 +35,7 @@
   <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("week7/Fluorescent-Adolescent-Week7.mei.musicxml", function (data) {
+    CETEIcean.getHTML5("Fluorescent.mei", function (data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -45,7 +45,7 @@
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("week7/Fluorescent-Adolescent-Week7.mei.musicxml", function (data) {
+    CETEI4MEI.getHTML5("Fluorescent.mei", function (data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -59,7 +59,7 @@
       scale: 50,
       adjustPageHeight: true
     })
-    fetch("week7/Fluorescent-Adolescent-Week7.mei.musicxml").then(function (response) {
+    fetch("Fluorescent.mei").then(function (response) {
       response.text().then(function (data) {
         var svg = vrvToolkit.renderData(data, {})
         document.getElementById('MEI').innerHTML = svg
