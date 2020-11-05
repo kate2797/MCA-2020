@@ -31,12 +31,14 @@ h3 {
   font-family: 'DM Serif Display', serif;
 }
 
-mei-title::before {
-  content: "Title";
+#title::before {
+  content: "Title: ";
+  font-weight: bold;
 }
 
 #arranger::before {
-  content: "Arranger";
+  content: "Arranger: ";
+  font-weight: bold;
 }
 
 #subtitle {
