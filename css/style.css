@@ -18,10 +18,11 @@ h3 {
 
 #MEImeta {
   display: block;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-#title {
-  font-size: 30px;
+#mytitle {
+  font-size: 35px;
   color: black;
   padding-bottom: 2px;
   font-family: 'DM Serif Display', serif;
