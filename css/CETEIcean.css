@@ -1857,7 +1857,7 @@ mei-pubstmt > mei-address {
 
 mei-filedesc > mei-pubstmt > mei-date::before {
   font-weight: bold;
-  content: "Date encoded: "
+  content: "Date published: "
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {

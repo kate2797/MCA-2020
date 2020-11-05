@@ -101,8 +101,12 @@ mei-termlist::before {
   font-weight: bold;
 }
 
-mei-date, mei-title, mei-persname, mei-corpname, mei-extent, mei-publisher, mei-address, mei-lyricist, mei-key, mei-tempo, mei-geogname, mei-creation, mei-language, mei-termlist  {
+mei-date, mei-title, mei-persname, mei-corpname, mei-publisher, mei-address, mei-lyricist, mei-key, mei-tempo, mei-geogname, mei-creation, mei-language, mei-termlist  {
   display: block;
+}
+
+mei-extent {
+  display: none;
 }
 
 #composer_first::before {
