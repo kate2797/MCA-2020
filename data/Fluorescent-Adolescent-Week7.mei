@@ -8,7 +8,7 @@
             <title xml:id="my_title">Fluorescent Adolescent</title>
             <title xml:id="subtitle" type="subtitle">An arrangement for piano</title>
             <respStmt>
-                <persName role="composer">Arctic Monkeys</persName>
+                <persName xml:id="composer_first" role="composer">Arctic Monkeys</persName>
                 <persName xml:id="arranger" role="arranger">psychemmyy</persName>
                 <persName role="encoder">Katarina Zaprazna</persName>
             </respStmt>
