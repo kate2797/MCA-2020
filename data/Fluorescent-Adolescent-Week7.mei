@@ -67,7 +67,7 @@
             <key>E</key>
             <tempo>Moderato</tempo>
             <creation>
-                <date>July 4, 2007</date>
+                <date xml:id="released">July 4, 2007</date>
                 <geogName xml:id="geolocation" auth.uri="https://musicbrainz.org/area/f03d09b3-39dc-4083-afd6-159e3f0d462f" auth="MusicBrainz">London, United Kingdom</geogName>
             </creation>
             <!--- Added language encoding so that one can search for music in a spefic language -->

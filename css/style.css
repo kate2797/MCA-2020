@@ -70,6 +70,46 @@ mei-date::before {
   display: block;
 }
 
+#composer {
+  content: "Composer: ";
+  font-weight: bold;
+}
+
+#lyricist1 {
+  content: "Lyricists: ";
+  font-weight: bold;
+}
+
+mei-key {
+  content: "Key: ";
+  font-weight: bold;
+}
+
+mei-tempo {
+  content: "Tempo: ";
+  font-weight: bold;
+}
+
+#geolocation {
+  content: "Location: ";
+  font-weight: bold;
+}
+
+#released {
+  content: "Released: ";
+  font-weight: bold;
+}
+
+mei-language {
+  content: "Language: ";
+  font-weight: bold;
+}
+
+mei-termlist {
+  content: "Genre: ";
+  font-weight: bold;
+}
+
 mei-date, mei-title, mei-persname, mei-corpname, mei-extent, mei-publisher, mei-address, mei-lyricist, mei-key, mei-tempo, mei-geogname, mei-creation, mei-language, mei-termlist  {
   display: block;
 }

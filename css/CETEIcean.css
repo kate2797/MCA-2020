@@ -1866,6 +1866,7 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
 
 mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::before {
   content: "License: ";
+  font-weight: bold;
 }
 
 mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
