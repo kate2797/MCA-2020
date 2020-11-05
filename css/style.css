@@ -115,9 +115,17 @@ mei-extent {
 }
 
 mei-editionstmt > mei-title::before {
-	content: "Source of Transcription";
+	content: "Source";
 	text-transform: uppercase;
   font-family: 'DM Serif Display', serif;
 	font-size: 12px;
 	display:block;
-	  }
+}
+
+mei-worklist > mei-title::before {
+	content: "Original Work";
+	text-transform: uppercase;
+  font-family: 'DM Serif Display', serif;
+	font-size: 12px;
+	display:block;
+}
