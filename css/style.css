@@ -119,6 +119,8 @@ mei-extent {
   font-weight: bold;
 }
 
+/* Sections */
+
 mei-editionstmt > mei-title::before {
 	content: "Source";
 	text-transform: uppercase;
