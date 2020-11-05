@@ -124,6 +124,11 @@ mei-extent {
   font-weight: bold;
 }
 
+#encoding_publisher::after {
+  content: '\a \a';
+  white-space: pre;
+}
+
 /* Sections */
 
 mei-editionstmt > mei-title::before {
