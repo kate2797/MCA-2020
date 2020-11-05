@@ -20,7 +20,11 @@ h3 {
   display: block;
 }
 
-mei-titlestmt > mei-title:first-child {
+mei-filedesc > mei-titlestmt > mei-title:first-child {
   font-size: 16px;
   color: black;
+}
+
+#subtitle {
+  color: red;
 }
