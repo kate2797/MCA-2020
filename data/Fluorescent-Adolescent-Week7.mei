@@ -5,8 +5,8 @@
    <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Fluorescent Adolescent</title>
-            <title type="subtitle">An arrangement for piano</title>
+            <title id="mytitle">Fluorescent Adolescent</title>
+            <title id="subtitle" type="subtitle">An arrangement for piano</title>
             <respStmt>
                 <persName role="composer">Arctic Monkeys</persName>
                 <persName role="arranger">psychemmyy</persName>
