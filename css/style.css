@@ -65,7 +65,7 @@ mei-date::before {
   font-weight: bold;
 }
 
-composer_first::before {
+#composer_first::before {
   content: "File description";
   display: block;
 }
