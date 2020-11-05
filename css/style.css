@@ -71,42 +71,42 @@ mei-date::before {
   display: block;
 }
 
-#composer {
+#composer::before {
   content: "Composer: ";
   font-weight: bold;
 }
 
-#lyricist1 {
+#lyricist1::before {
   content: "Lyricists: ";
   font-weight: bold;
 }
 
-mei-key {
+mei-key::before {
   content: "Key: ";
   font-weight: bold;
 }
 
-mei-tempo {
+mei-tempo::before {
   content: "Tempo: ";
   font-weight: bold;
 }
 
-#geolocation {
+#geolocation::before {
   content: "Location: ";
   font-weight: bold;
 }
 
-#released {
+#released::before {
   content: "Released: ";
   font-weight: bold;
 }
 
-mei-language {
+mei-language::before {
   content: "Language: ";
   font-weight: bold;
 }
 
-mei-termlist {
+mei-termlist::before {
   content: "Genre: ";
   font-weight: bold;
 }
