@@ -124,7 +124,7 @@ mei-extent {
 }
 
 #encoding_publisher::before {
-  content: "Encoding publisher: ";
+  content: "Publisher: ";
   font-weight: bold;
 }
 
