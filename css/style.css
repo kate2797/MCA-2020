@@ -3,10 +3,6 @@
   margin: 0 0 1em 0;
 }
 
-body {
-  font-family: 'Nunito', sans-serif;
-}
-
 tei-teiHeader {
   display: none;
 }
