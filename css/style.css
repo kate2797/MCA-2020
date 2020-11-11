@@ -7,6 +7,12 @@ tei-teiHeader {
   display: none;
 }
 
+img.graph {
+  width: 1200px;
+  height: 220px;
+  object-fit: cover;
+}
+
 h3 {
   font-weight: 600;
   line-height: 1.125;
