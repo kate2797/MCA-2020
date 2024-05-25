@@ -1,8 +1,8 @@
 # MCA 2020
 
-## General info
+## General Information
 
-A static website developed as an assignment for one of my undergraduate courses that received excellent A-band (95%) feedback. It was created to present my weekly laboratory work that included music encoding, analysing and extracting meaning from audio samples and computing smples' similarity.
+A static website, crafted as part of my undergraduate coursework, garnered exceptional A-band (95%) acclaim. It showcased weekly lab endeavors, encompassing music encoding, audio sample analysis, and computing sample similarity.
 
 ## Technologies
 * HTML5
@@ -12,6 +12,3 @@ A static website developed as an assignment for one of my undergraduate courses 
 * JavaScript
 * Python 3
 * MusicXML
-
-## Setup
-Click [here](https://kate2797.github.io/MCA-2020/index.html) to see this project in your browser 🎶.
